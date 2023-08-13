@@ -35,13 +35,13 @@
 
   #Home {
     min-width: 100%;
-    min-height: 100%;
+    min-height: 41vh;
   }
 
   .video-container .video-text {
     display: flex;
     position: absolute;
-    top: 196px;
+    top: 89px;
     margin: 0px 8%;
     align-items: center;
     font-size: 138%;
@@ -75,6 +75,12 @@
 .container-info .hotel-image-info img {
   margin-right: 0;
 }
+.container-info .hotel-name h1 {
+  text-align: center;
+  font-size: 31px;
+  margin-bottom: 20px;
+  font-family: var(---font-family-Roboto);
+} 
   /* !Event*/
   #Event {
     min-width: 100%;
