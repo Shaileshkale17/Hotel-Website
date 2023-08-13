@@ -156,6 +156,7 @@
   .team-container .team-image img {
     width: 100%;
     margin-left: 0;
+    padding: 2%;
   }
   .team-container {
     display: flex;
