@@ -32,7 +32,7 @@
     color: var(---color-F7E987);
     flex-direction: column;
   }
-
+/* !Home */
   #Home {
     min-width: 100%;
     min-height: 100%;
@@ -49,6 +49,15 @@
     color: var(---color-F7E987);
     flex-direction: column;
   }
+  .video-text a button {
+    background-color: var(---color-white);
+    color: var(---color-black);
+}
+
+.video-text button:hover {
+  background-color: var(---color-white);
+  color: var(---color-black);
+}
 
   #Hotel-Techgicus-info {
     min-width: 100%;
