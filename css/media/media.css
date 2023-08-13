@@ -35,7 +35,7 @@
 
   #Home {
     min-width: 100%;
-    min-height: 41vh;
+    min-height: 100%;
   }
 
   .video-container .video-text {
@@ -154,7 +154,7 @@
   }
 
   .team-container .team-image img {
-    width: 50vh;
+    width: 100%;
     margin-left: 0;
   }
   .team-container {
