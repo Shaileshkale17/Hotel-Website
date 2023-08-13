@@ -103,7 +103,7 @@ h1 {
 }
 
 .video-text button:hover {
-    background-color: var(----color-non-button);
+    background-color: var(---color-white);
     color: var(---color-black);
 }
 
