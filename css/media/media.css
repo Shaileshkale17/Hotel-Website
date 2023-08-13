@@ -32,7 +32,8 @@
     color: var(---color-F7E987);
     flex-direction: column;
   }
-/* !Home */
+
+  /* !Home */
   #Home {
     min-width: 100%;
     min-height: 100%;
@@ -49,15 +50,16 @@
     color: var(---color-F7E987);
     flex-direction: column;
   }
+
   .video-text a button {
     background-color: var(---color-white);
     color: var(---color-black);
-}
+  }
 
-.video-text button:hover {
-  background-color: var(---color-white);
-  color: var(---color-black);
-}
+  .video-text button:hover {
+    background-color: var(---color-white);
+    color: var(---color-black);
+  }
 
   #Hotel-Techgicus-info {
     min-width: 100%;
@@ -75,26 +77,31 @@
     height: 50%;
     margin-right: 55px;
   }
+
   .container-info .hotel-image-info {
     display: unset;
     flex-direction: row-reverse;
     align-items: center;
     text-align: center;
-}
-.container-info .hotel-image-info img {
-  margin-right: 0;
-}
-.container-info .hotel-name h1 {
-  text-align: center;
-  font-size: 31px;
-  margin-bottom: 20px;
-  font-family: var(---font-family-Roboto);
-} 
-.container-info .hotel-name p {
-  text-align: justify;
-  font-size: 14px;
-  font-family: var(---font-family-Poppins);
-}
+  }
+
+  .container-info .hotel-image-info img {
+    margin-right: 0;
+  }
+
+  .container-info .hotel-name h1 {
+    text-align: center;
+    font-size: 31px;
+    margin-bottom: 20px;
+    font-family: var(---font-family-Roboto);
+  }
+
+  .container-info .hotel-name p {
+    text-align: justify;
+    font-size: 14px;
+    font-family: var(---font-family-Poppins);
+  }
+
   /* !Event*/
   #Event {
     min-width: 100%;
@@ -121,7 +128,7 @@
     flex-direction: column;
     margin-top: 35px;
     margin-bottom: 118px;
-}
+  }
 
   .offer-container .container-box {
     display: grid;
@@ -172,6 +179,7 @@
     margin-left: 0;
     padding: 2%;
   }
+
   .team-container {
     display: flex;
     margin-left: 0;
@@ -180,13 +188,14 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-}   
+  }
 
-.team-container .team-text h2 {
-  display: unset;
-  flex-direction: unset;
-  font-family: var(---font-family-Roboto);
-}
+  .team-container .team-text h2 {
+    display: unset;
+    flex-direction: unset;
+    font-family: var(---font-family-Roboto);
+  }
+
   /* connect */
   #connect {
     min-width: 100%;
@@ -223,13 +232,98 @@
 }
 
 /* !Small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) and (min-width: 575.98px) {}
+@media (max-width: 767.98px) and (min-width: 575.98px) {
+  /* header */
+  header {
+    padding: 7px 13px;
+    overflow-x: hidden;
+    background-color: var(---color-white);
+    font-family: var(---font-family-Roboto);
+  }
+  nav .navber-1 ul,
+  .navber-2 ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+  }
+  header nav .logo {
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+  }
+  header nav .logo img {
+    width: 189px;
+  }
+  /* !home */
+  #Home{
+    min-width: 100%;
+  min-height: 100%;
+  }
+  .video-text {
+    display: flex;
+    position: absolute;
+    top: 195px;
+    margin: 0 7%;
+    align-items: center;
+    font-size: 33px;
+    justify-content: center;
+    color: var(---color-F7E987);
+    flex-direction: column;
+}
+/*! Hotel-Techgicus-info */
+.container-info .hotel-name h1 {
+  text-align: left;
+  font-size: 42px;
+  margin-bottom: 20px;
+  font-family: var(---font-family-Roboto);
+}
+.container-info .hotel-name p {
+  text-align: justify;
+  font-size: 12px;
+  font-family: var(---font-family-Poppins);
+}
+.Event-container {
+  display: grid;
+  grid-template-columns: repeat(2, 5fr);
+  justify-content: center;
+}
+
+.Event-container .Event-container-box .Event-container-box-videos video {
+    width: 100%;
+    padding: 0 4%;
+    height: auto;
+}
+
+.offer-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 110px;
+}
+
+.team-container .team-text {
+    margin-left: 0;
+    width: 42%;
+    font-size: 21px;
+}
+
+.connect-container {
+  margin-top: 232px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 33px;
+}
+}
 
 /*  !Medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) and (min-width: 767.98px) {}
+@media (max-width: 991.98px) and (min-width: 767.98px) {
+}
 
 /* !Large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px) and (min-width: 991.98px) {}
+@media (max-width: 1199.98px) and (min-width: 991.98px) {
+}
 
 /*! X-Large devices (large desktops, less than 1400px) */
-@media (max-width: 1399.98px) and (min-width: 1199.98px) {}
+@media (max-width: 1399.98px) and (min-width: 1199.98px) {
+}
