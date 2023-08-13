@@ -1,0 +1,169 @@
+/* !X-Small devices (portrait phones, less than 576px) */
+@media only screen and (max-width: 575.98px) {
+  header .display {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  header .display .logo-1 {
+    text-align: center;
+  }
+
+  header nav {
+    display: none;
+  }
+
+  video {
+    width: 69%;
+    height: 100%;
+  }
+
+  #Home {
+    min-width: 100%;
+    min-height: 41vh;
+  }
+
+  .video-container .video-text {
+    display: flex;
+    position: absolute;
+    top: 196px;
+    margin: 0px 8%;
+    align-items: center;
+    font-size: 138%;
+    justify-content: center;
+    color: var(---color-F7E987);
+    flex-direction: column;
+  }
+
+  #Hotel-Techgicus-info {
+    min-width: 100%;
+    min-height: 64vh;
+  }
+
+  .container-info {
+    flex-direction: column;
+    gap: 10%;
+  }
+
+  .container-info .hotel-image-info img {
+    margin-top: 10%;
+    width: 82%;
+    height: 50%;
+    margin-right: 55px;
+  }
+
+  /* !Event*/
+  #Event {
+    min-width: 100%;
+  }
+
+  .Event-container {
+    display: grid;
+    grid-template-columns: repeat(1, 5fr);
+    justify-content: center;
+  }
+
+  /* !offer */
+  #offer {
+    min-width: 100%;
+  }
+
+  .offer-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 177px;
+  }
+
+  .offer-container .container-box {
+    display: flex;
+    gap: 10%;
+    align-items: center;
+    justify-content: space-around;
+
+    padding: 30px;
+  }
+
+  .offer-container .offer-h1 {
+    color: var(---color-white);
+  }
+
+  #offer .offer-container .container-box .offer-box img {
+    margin: 2px;
+  }
+
+  #team {
+    min-width: 100%;
+    min-height: 64vh;
+  }
+
+  .team-container {
+    display: grid;
+  }
+  .team-container .team-text h2 {
+    text-align: center;
+  }
+  .team-container .team-text {
+    font-size: 23px;
+    margin-left: 0;
+    width: 100%;
+    text-align: center;
+  }
+  .team-container .team-text h2 {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 38%;
+  }
+
+  .team-container .team-image img {
+    width: 50vh;
+    margin-left: 45px;
+  }
+  /* connect */
+  #connect {
+    min-width: 70vh;
+  }
+  .connect-container {
+    font-size: 18px;
+  }
+  .connect-container h2,
+  h3 {
+    color: var(---color-white);
+  }
+  .connect-container .connect-box .fa-whatsapp {
+    color: var(---color-whatsapp);
+    font-size: 37px;
+  }
+  .connect-container .connect-box .fa-instagram {
+    color: #858ebc;
+    margin: 0 28px;
+    font-size: 37px;
+  }
+  .connect-container .connect-box .fa-phone {
+    color: var(---color-white);
+    font-size: 37px;
+  }
+  
+  footer {
+    min-width: 100%;
+  }
+}
+
+/* !Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) and (min-width: 575.98px) {
+}
+
+/*  !Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) and (min-width: 767.98px) {
+}
+
+/* !Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) and (min-width: 991.98px) {
+}
+
+/*! X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) and (min-width: 1199.98px) {
+}

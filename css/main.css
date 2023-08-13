@@ -1,0 +1,418 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&family=Roboto:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(---color-252B48);
+}
+
+section {
+    min-width: 100vh;
+    min-height: 100vh;
+    /* overflow-x: hidden; */
+}
+
+/* !Header */
+header {
+    padding: 0 49px;
+    overflow-x: hidden;
+    background-color: var(---color-white);
+    font-family: var(---font-family-Roboto);
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav .logo {
+    margin-left: auto;
+    margin-right: auto;
+    width: 39%;
+}
+
+header nav .logo img {
+    width: 458px;
+}
+
+nav .navber-1 ul,
+.navber-2 ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+nav .navber-1 ul li,
+.navber-2 ul li {
+    list-style: none;
+}
+
+nav .navber-1 ul li a,
+.navber-2 ul li a {
+    text-decoration: none;
+    color: var(---color-252B48);
+    font-size: 20px;
+}
+
+nav .navber-1 ul li a:hover,
+.navber-2 ul li a:hover {
+    color: var(---color-5B9A8B);
+}
+
+nav .navber-2 .fa-heart:hover {
+    color: var(---color-youtube);
+}
+
+/*! Main */
+video {
+    width: 100%;
+    height: 100%;
+}
+
+.video-text {
+    display: flex;
+    position: absolute;
+    top: 308px;
+    margin: 0 15%;
+    align-items: center;
+    font-size: 50px;
+    justify-content: center;
+    color: var(---color-F7E987);
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+
+    font-family: var(---font-family-Roboto);
+}
+
+.video-text a button {
+    font-family: var(---font-family-Roboto);
+    padding: 11px;
+    background-color: var(---color-video-button);
+    color: var(---color-black);
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.video-text button:hover {
+    background-color: var(----color-non-button);
+    color: var(---color-black);
+}
+
+/* !Hotel-Techgicus-info */
+#Hotel-Techgicus-info {
+    min-width: 100vh;
+    min-height: 64vh;
+}
+
+.container-info {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    color: var(---color-white);
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .container-info .hotel-name h1{ */
+.container-info .hotel-name h1 {
+    text-align: left;
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-family: var(---font-family-Roboto);
+}
+
+.container-info .hotel-name p {
+    text-align: justify;
+    font-size: 23px;
+    font-family: var(---font-family-Poppins);
+}
+
+.container-info .hotel-name .media {
+    margin-top: 10px;
+}
+
+.container-info .hotel-name .media samp {
+    margin-left: 10px;
+}
+
+.container-info .hotel-name .media samp .fa-whatsapp {
+    color: var(---color-whatsapp);
+    font-size: 20px;
+}
+
+.container-info .hotel-name .media samp .fa-facebook {
+    color: var(---color-facebook);
+    font-size: 20px;
+}
+
+.container-info .hotel-name .media samp .fa-youtube {
+    color: var(---color-youtube);
+    font-size: 20px;
+}
+
+.container-info .hotel-image-info {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+img {
+    width: 60%;
+    height: 50%;
+}
+
+/* !Event*/
+#Event {
+    padding: 20px;
+    background-color: var(---color-white);
+}
+
+.Event-container {
+    display: grid;
+    grid-template-columns: repeat(3, 5fr);
+    justify-content: center;
+}
+
+.Event-container .Event-container-box {
+    margin-bottom: 30px;
+}
+
+.Event-container .Event-container-box .Event-container-box-videos video {
+    width: 63vh;
+    height: auto;
+}
+
+.Event-container .Event-container-box .Event-container-box-text h1 {
+    font-family: var(---font-family-Roboto);
+}
+
+.Event-container .Event-container-box .Event-container-box-text p {
+    font-family: var(---font-family-Poppins);
+}
+
+.Event-container .Event-container-box .Event-container-box-text {
+    text-align: justify;
+    padding: 0 20px;
+}
+
+#Event .more-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.more-button button {
+    font-family: var(---font-family-Roboto);
+    padding: 11px;
+    background-color: var(----color-non-button);
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.more-button button:hover {
+    background-color: var(---color-5B9A8B);
+    color: var(---color-white);
+}
+
+/*! Offer */
+#offer {
+    background-image: url(../image/back-bg.jpg);
+    padding: 20px;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: var(---font-family-Roboto);
+}
+
+.offer-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 232px;
+}
+
+.offer-container .container-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 30px;
+}
+
+.offer-container .container-box .offer-box {
+    background-color: var(---color-F7E987);
+    text-align: center;
+}
+
+#offer .offer-container .container-box .offer-box img {
+    width: 144px;
+    margin: 22px;
+}
+
+/*! Team */
+#team {
+    background-color: var(---color-white);
+    padding: 20px;
+}
+
+.team-container {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.team-container .team-image img {
+    width: 50vh;
+}
+
+.team-container .team-text {
+    margin-left: auto;
+    width: 36%;
+    font-size: 23px;
+}
+
+.team-container .team-text h2 {
+    display: flex;
+    flex-direction: row-reverse;
+    font-family: var(---font-family-Roboto);
+}
+
+.team-container .team-text .team-text-p {
+    text-align: justify;
+    font-family: var(---font-family-Poppins);
+}
+
+/* connect */
+#connect {
+    background-image: url(../image/back-bg.jpg);
+    padding: 20px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.connect-container {
+    margin-top: 232px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 50px;
+}
+
+.connect-container h2,
+h3 {
+    padding-bottom: 20px;
+    color: var(---color-white);
+    font-family: var(---font-family-Roboto);
+}
+
+.connect-container .connect-box .fa-whatsapp {
+    color: var(---color-whatsapp);
+}
+
+.connect-container .connect-box .fa-instagram {
+    color: #858ebc;
+    margin: 0 28px;
+}
+
+.connect-container .connect-box .fa-phone {
+    color: var(---color-black);
+}
+
+/* Booking  */
+#Booking {
+    position: absolute;
+    backdrop-filter: blur(5px);
+    top: 1px;
+    min-width: 100%;
+    min-height: 100vh;
+    display: none;
+}
+.booking-container{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 220px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    /* text-align: center; */
+    flex-direction: column;
+}
+.number-menber-info-hotel label ,.number-menber-info-hotel label{
+    margin-right: 14vh;
+}
+
+/* .booking-info-container{
+    display: flex;
+    justify-content: space-around;
+} */
+
+
+
+
+/*! Footer */
+footer {
+    min-width: 100vh;
+    min-height: 10vh;
+    background-color: var(---color-5B9A8B);
+    color: var(---color-white);
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer-container .manu-1 ul,
+.manu-2 ul,
+.manu-3 ul {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 33px;
+    list-style: none;
+}
+
+.footer-container .manu-1 ul li a,
+.manu-2 ul li a,
+.manu-3 ul li a {
+    text-decoration: none;
+    color: var(---color-white);
+    font-family: var(---font-family-Poppins);
+}
+
+.footer-container .manu-1 ul li h1,
+.manu-2 ul li h1,
+.manu-3 ul li h1 {
+    font-family: var(---font-family-Roboto);
+}
+
+.copy-container {
+    padding-top: 20px;
+    text-align: center;
+    color: var(---color-black);
+    font-family: var(---font-family-Roboto);
+}
+
+.display {
+    display: none;
+}
+
+.X {
+    display: none;
+}

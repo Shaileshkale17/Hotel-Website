@@ -1,0 +1,16 @@
+:root {
+  ---color-252B48: #252b48;
+  ---color-445069: #445069;
+  ---color-5B9A8B: #5b9a8b;
+  ---color-F7E987: #f7e987;
+  ---color-white: white;
+  ---color-black: black;
+  ---color-whatsapp: Green;
+  ---color-green: rgba(0, 128, 0, 0.509);
+  ---color-facebook: blue;
+  ---color-youtube: red;
+  ---color-non-button: #46546f73;
+  ---color-video-button: #9f9d7eba;
+  ---font-family-Poppins: "Poppins", sans-serif;
+  ---font-family-Roboto: "Roboto", sans-serif;
+}
